@@ -2,6 +2,8 @@
 
 An easy interface for sending system messages in Roblox chat on the server and client, optionally using RichText.
 
+To install, follow the instructions at the top of each script in src/.
+
 ## API
 
 ### Server

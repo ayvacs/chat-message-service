@@ -1,3 +1,26 @@
+--[[
+
+ ██████╗██╗  ██╗ █████╗ ████████╗    ███╗   ███╗███████╗███████╗███████╗ █████╗  ██████╗ ███████╗    ███████╗███████╗██████╗ ██╗   ██╗██╗ ██████╗███████╗
+██╔════╝██║  ██║██╔══██╗╚══██╔══╝    ████╗ ████║██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝ ██╔════╝    ██╔════╝██╔════╝██╔══██╗██║   ██║██║██╔════╝██╔════╝
+██║     ███████║███████║   ██║       ██╔████╔██║█████╗  ███████╗███████╗███████║██║  ███╗█████╗      ███████╗█████╗  ██████╔╝██║   ██║██║██║     █████╗  
+██║     ██╔══██║██╔══██║   ██║       ██║╚██╔╝██║██╔══╝  ╚════██║╚════██║██╔══██║██║   ██║██╔══╝      ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║██║     ██╔══╝  
+╚██████╗██║  ██║██║  ██║   ██║       ██║ ╚═╝ ██║███████╗███████║███████║██║  ██║╚██████╔╝███████╗    ███████║███████╗██║  ██║ ╚████╔╝ ██║╚██████╗███████╗
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝    ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝ ╚═════╝╚══════╝
+
+                MODULE SCRIPT
+        
+        Provides simple and customizable APIs for the client and server to send messages to the specified client(s).
+        For more information, read <https://github.com/ayvacs/chat-message-service>
+
+        This code should be placed in a ModuleScript named "ChatMessageService" parented to ReplicatedStorage.
+        Also, create a RemoteEvent named "ClientMakeMessage" parented to this script.
+
+        Written by ayvacs <https://github.com/ayvacs>
+        and licensed under the MIT License <https://raw.githubusercontent.com/ayvacs/chat-message-service/main/LICENSE>
+
+]]
+
+
 local TextChatService = game:GetService("TextChatService")
 local Players = game:GetService("Players")
 
