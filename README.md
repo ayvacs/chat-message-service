@@ -1,4 +1,4 @@
-# ChatMessageService v2
+# ChatMessageService
 
 An easy interface for sending system messages in Roblox chat on the server and client, optionally using RichText.
 
@@ -41,7 +41,3 @@ ChatMessageService.Client:CurrentClient( text: string ): nil
 ```
 
 Send the specified message (`text`) to the current client only. `text` may be any plain text message or properly-formated RichText string.
-
----
-
-See the original, no-longer-being-updated CMS [here](https://github.com/ayvacs/ChatMessageService/)
